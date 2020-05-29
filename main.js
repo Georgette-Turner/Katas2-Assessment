@@ -15,7 +15,8 @@ function multiply(x, y) {
 console.log()
 
 // Kata 03 Exponent
-function power(x, y) {git
+function power(x, y) {
+    git
 
 }
 console.log()
