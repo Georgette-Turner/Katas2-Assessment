@@ -10,16 +10,12 @@ console.log('Kata 1:', add(2, 1))
 console.log('Kata 1:', add(100, 2))
 
 
-// Kata 02 Multiply use add funct
+// Kata 02 Multiply use addtion function/
 function multiply(x, y) {
-    return x + y
-    // 0 times any #/
-    if (y == 0)
-        return 0;
-
-    // add x one by one/
-    if (y > 0)
-        return (x + multiply(x, y - 1));
+    var x = num;
+    for (var y = 1; y < times; y++)
+        num += n;
+    return num;
 }
 
 console.log('Kata 2:', (2, 1 - 1))
@@ -30,10 +26,9 @@ console.log('Kata 2:', (12, 6 - 1))
 // Kata 03 Exponent
 function power(x, n) {
     var result = 1;
-    if (n == undefined)
-        exponent = 2;
-    for (var i = 1; i <= + exponent; i++) {
-        result = result * base;
+
+    for (var count = 0; count < exponent; count++) {
+        result * base;
     }
     return result;
 }
@@ -45,10 +40,15 @@ console.log('Kata 3:', (8, 64))
 
 // Kata 04 Factoral
 function Factoral(x) {
-    if (x === 0) {
+    var result = num;
+    if (num === 0 || num === 1)
         return 1;
+
+    while (num > 1) {
+        num--;
+        result = result * num;
     }
-    return x * Factoral(x - 1);
+    return result
 }
 
 console.log('Kata 4:', (10, 15))
