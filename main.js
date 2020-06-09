@@ -12,45 +12,45 @@ console.log('Kata 1:', add(100, 2))
 
 // Kata 02 Multiply use addtion function/
 function multiply(x, y) {
-    var x = num;
-    for (var y = 1; y < times; y++)
-        num += n;
+   let num = 0;
+    for (var counter = 0; counter < y; counter++){
+        num = add(num,x)
+    }
+        
     return num;
 }
 
-console.log('Kata 2:', (2, 1 - 1))
-console.log('Kata 2:', (10, 5 - 1))
-console.log('Kata 2:', (12, 6 - 1))
+console.log('Kata 2:', multiply(2, 3))
+console.log('Kata 2:', multiply(10, 4))
+console.log('Kata 2:', multiply(4, 3))
 
 
 // Kata 03 Exponent
 function power(x, n) {
-    var result = 1;
+let result = 1;
 
-    for (var count = 0; count < exponent; count++) {
-        result * base;
+    for (let count = 0; count < n; count++) {
+        result = multiply(result,x)
     }
     return result;
 }
 
-console.log('Kata 3:', (2, 4))
-console.log('Kata 3:', (4, 16))
-console.log('Kata 3:', (8, 64))
+console.log('Kata 3:', power(3, 4))
+console.log('Kata 3:', power(3, 3))
+console.log('Kata 3:', power(2, 4))
 
 
 // Kata 04 Factoral
 function Factoral(x) {
-    var result = num;
-    if (num === 0 || num === 1)
-        return 1;
+        let result = 1
+        for (let counter = 5; counter < x; counter++){
+            result = multiply(result, counter)
+        result = (counter - 1) (counter - 2) (counter - 3) (counter - 4)
+            when (counter > 0)
+                
+        }
 
-    while (num > 1) {
-        num--;
-        result = result * num;
-    }
-    return result
+    return result;
 }
 
-console.log('Kata 4:', (10, 15))
-console.log('Kata 4:', (30, 15))
-console.log('Kata 4:', (50, 20))
+console.log('Kata 4:', Factoral(5))
