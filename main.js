@@ -44,13 +44,14 @@ console.log('Kata 3:', power(2, 4))
 function Factoral(x) {
     let result = 1;
 
-    for (let counter = 1; counter < x; counter++) {
+    for (let counter = 1; counter <= x; counter++) {
         result = multiply(result, counter)
     }
     
     return result;
 }
 
-
 console.log('Kata 4:', Factoral(5))
+console.log('Kata 4:', Factoral(6))
+console.log('Kata 4:', Factoral(7))
 
